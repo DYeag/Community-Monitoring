@@ -33,7 +33,7 @@ Community Monitoring is currently setup to report to Strikedeck. Each event will
     Idea Comment Posted: 'Idea Box: New Idea Comment Posted'
     Badge Given:         'Forum: Badge Given'
 
-The event information to be passed along for each event type is covered on the *CloudShell Pro/VE Data Source Requirements: Community* within confluence. The API POST json format can be observed [here](https://cs.strikedeck.com/knowledge/event-api-details). The strings about will be the "event_type", which the additional information will be sent in the "data" dictionary. Currently, these events are also sent along with the Customer with "name" = "external_customer_id" = 'Quali Community Monitoring'.This is so that it shows up in the strikedeck sandbox environemnt. These events will be sent with the correct customer info when that information in compiled and available.
+The event information to be passed along for each event type is covered on the *CloudShell Pro/VE Data Source Requirements: Community* within confluence. The API POST json format can be observed [here](https://cs.strikedeck.com/knowledge/event-api-details). The strings about will be the "event_type", which the additional information will be sent in the "data" dictionary. Currently, these events are also sent along with the Customer with "name" = "external_customer_id" = 'Quali Community Monitoring'.This is so that it shows up in the strikedeck sandbox environemnt. These events will be sent with the correct customer info when that information in compiled and available.<br />
 
 
 <a name="modules"></a>
@@ -57,7 +57,7 @@ The event information to be passed along for each event type is covered on the *
 
     create_json_report - creates a json for Strikedeck from one or more Action onjects given
     send_summary_to_strikedeck - POST json summary to strikedeck as /log or /logBulk
-    
+<br />
 
 <a name="report"></a>
 ## Report New Event
