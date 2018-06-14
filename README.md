@@ -80,7 +80,7 @@ The info found within a user's json, is used to make another GET request. For ex
 There are many different event types and it is possible these 2 prior options will not cover them all. In that case, the AnserHub API and Postman are you best bets to figure it out.<br /><br />
 
 **After the Action Objects are Created**:<br />
-After the new event's Action objects have been added to the main function's actions list. The only step left is to add the json creation for that event type in Action.json, in the event_json function. You simply need to add a new conditional block for the event type you are adding. add key:value pairs to the event_data dict() and the rest should be done for you after that.
+After the new event's Action objects have been added to the main function's actions list. The only step left is to add the json creation for that event type in Action.json, in the event_json function. You simply need to add a new conditional block for the event type you are adding. Depending on the data you want to report, add key:value pairs to the event_data dict() and the rest should be done for you after that.
 
 
 
